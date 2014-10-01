@@ -1,0 +1,110 @@
+.grid {
+	padding: 0 0 1.5% 0;
+	/*max-width: 1000px;*/
+	width: 100%;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 300px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+	border-radius: 10px;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #b3c9d5;
+	/*background-color: rgba(51, 51, 51, 1);*/
+	color: #fff;
+	border-radius: 10px;
+}
+
+.grid figcaption h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 0;
+	margin-bottom: 2%;
+	padding: 0;
+	color: #fff;
+}
+
+.grid figcaption span:before {
+	/*content: 'by ';*/
+}
+
+.grid figcaption a {
+	text-align: center;
+	padding: 8px 10px;
+	border-radius: 5px;
+	display: inline-block;
+	background: #a4b3dc;
+	color: #fff;
+}
+
+/* Individual Caption Styles */
+
+/* Caption Style 1 */
+.cs-style-1 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translate(10px, 10px);
+	-moz-transform: translate(10px, 10px);
+	-ms-transform: translate(10px, 10px);
+	transform: translate(10px, 10px);
+}
+
+.cs-style-1 figcaption h3 {
+	margin-top: 0px;
+}
+
+.cs-style-1 figcaption span {
+	display: block;
+}
+
+.cs-style-1 figcaption a {
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}
