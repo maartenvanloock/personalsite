@@ -208,36 +208,36 @@
                         <figcaption>
                           <h3>Maison Beauté</h3>
                           <span>This is a logo I designed for a fictional beauty salon</span>
-                          <a href="#">Take a look</a>
+                          <a href="https://www.behance.net/gallery/19283927/Maison-Beaut-Logo">Take a look</a>
                         </figcaption>
                       </figure>
                     </li>
 
                     <li>
                       <figure>
-                        <img data-interchange="[img/work/word_rijk_met_imd_400x300.png, (default)], [img/work/word_rijk_met_imd_800x600.png, (retina)]" alt="word rijk met imd">
+                        <img data-interchange="[img/work/carpenter_logo_400x300.png, (default)], [img/work/carpenter_logo_800x600.png, (retina)]" alt="word rijk met imd">
                         <figcaption>
                           <h3>Carpenter logo</h3>
                           <span>This is a logo i designed for a carpenter</span>
-                          <a href="#">Take a look</a>
+                          <a href="https://www.behance.net/gallery/7172215/logo-carpenter">Take a look</a>
                         </figcaption>
                       </figure>
                     </li>
 
                     <li>
                       <figure>
-                        <img data-interchange="[img/work/word_rijk_met_imd_400x300.png, (default)], [img/work/word_rijk_met_imd_800x600.png, (retina)]" alt="word rijk met imd">
+                        <img data-interchange="[img/work/cooking_app_400x300.png, (default)], [img/work/cooking_app_800x600.png, (retina)]" alt="cooking app">
                         <figcaption>
                           <h3>Cookio - mobile app</h3>
                           <span>A concept for a cooking app I designed</span>
-                          <a href="#">Take a look</a>
+                          <a href="https://www.behance.net/wip/293423/549975">Take a look</a>
                         </figcaption>
                       </figure>
                     </li>
 
                     <li>
                       <figure>
-                        <img data-interchange="[img/work/word_rijk_met_imd_400x300.png, (default)], [img/work/word_rijk_met_imd_800x600.png, (retina)]" alt="word rijk met imd">
+                        <img data-interchange="[img/work/word_rijk_met_imd_400x300.png, (default)], [img/work/word_rijk_met_imd_800x600.png, (retina)]" alt="movie app">
                         <figcaption>
                           <h3>Movie - mobile app</h3>
                           <span>An iOS app I designed and help co-develop using AS3</span>
