@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="icon" type="image/x-icon" href="img/favicon.gif" />
-    <title>Maarten Van Loock - Front-end Developer • UI/UX Designer</title>
+    <title>Maarten Van Loock - Front-end Developer & UI/UX Designer</title>
     <meta name="keywords" content="front-end development, UI design, UX design, UI, UX, web, websites, design, development, front-end developer, developer, designer, maarten, van, loock, maartenvanloock, Thomas, More, IMD">
-    <meta name="description" content="De online portfolio van Maarten Van Loock, een 21-jarige Front-end Developer en UI/UX Designer.">
+    <meta name="description" content="The online portfolio of Maarten Van Loock, a 21-year old Front-end Developer & UI/UX Designer from Belgium.">
     <meta name="author" content="Maarten Van Loock"/>
     <meta name="copyright" content="Maarten Van Loock - ZURB, inc. Copyright (c) 2014">
     <meta name="robots" content="Index, NoFollow"/>
@@ -15,10 +15,10 @@
 
     <!-- DC card -->
 
-    <meta name="DC.Title" content="Maarten Van Loock - Front-end Developer • UI/UX Designer">
+    <meta name="DC.Title" content="Maarten Van Loock - Front-end Developer & UI/UX Designer">
     <meta name="DC.Creator" content="Maarten Van Loock">
-    <meta name="DC.Subject" content="Maarten Van Loock - Front-end Developer • UI/UX Designer">
-    <meta name="DC.Description" content="De online portfolio van Maarten Van Loock, een 21-jarige Front-end Developer en UI/UX Designer.">
+    <meta name="DC.Subject" content="Maarten Van Loock - Front-end Developer & UI/UX Designer">
+    <meta name="DC.Description" content="The online portfolio of Maarten Van Loock, a 21-year old Front-end Developer & UI/UX Designer from Belgium.">
     <meta name="DC.Publisher" content="Maarten Van Loock">
     <meta name="DC.Date" content="2014">
     <meta name="DC.Language" content="en">
@@ -27,15 +27,15 @@
 
     <meta name="twitter:card" content="Maarten">
     <meta name="twitter:url" content="http://www.maartenvanloock.be">
-    <meta name="twitter:title" content="Maarten Van Loock - Front-end Developer • UI/UX Designer">
-    <meta name="twitter:description" content="De online portfolio van Maarten Van Loock, een 21-jarige Front-end Developer en UI/UX Designer.">
+    <meta name="twitter:title" content="Maarten Van Loock - Front-end Developer & UI/UX Designer">
+    <meta name="twitter:description" content="The online portfolio of Maarten Van Loock, a 21-year old Front-end Developer & UI/UX Designer from Belgium.">
     <meta name="twitter:image" content="http://maartenvanloock.be/img/twitter_profile_img_light.png">
     <meta name="twitter:site" content="@MaartenVanLoock">
     <meta name="twitter:creator" content="@MaartenVanLoock">
 
     <!-- Facebook card -->
 
-    <meta property="og:title" content="Maarten Van Loock - Front-end Developer • UI/UX Designer">
+    <meta property="og:title" content="Maarten Van Loock - Front-end Developer & UI/UX Designer">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://maartenvanloock.be">
     <meta property="og:image" content="http://maartenvanloock.be/img/twitter_profile_img_light.png">
@@ -51,10 +51,6 @@
     <!--google analytics-->
 
     <?php include_once("require/analyticstracking.php") ?>
-
-    <!--<link rel="stylesheet" type="text/css" href="css/component.css" />-->
-    <script src="js/foundation/foundation.topbar.js"></script>
-    <script src="js/foundation/foundation.dropdown.js"></script>
 
   </head>
   <body>
@@ -110,7 +106,7 @@
                     <li><a href="#" class="work">WORK</a></li>
                     <hr/>
                     <li><a href="#" class="contact">CONTACT</a></li>
-                    <hr/>
+                    <hr id="hr_smallnav_last"/>
                 </ul>
             </section>
         </nav>
@@ -129,14 +125,6 @@
     </div>
 
     <!-- header text -->
-
-    <!--<div class="row row_header_text">
-        <div class="large-12 small-12 large-centered small-centered columns text-center">
-            <p class="header_text">SIMPLICITY</p>
-            <p class="header_text">IS</p>
-            <p class="header_text">BEAUTIFUL</p>
-        </div>
-    </div>-->
 
     <div class="row row_header_text">
         <div class="large-12 small-12 large-centered small-centered columns text-center">
@@ -277,17 +265,19 @@
 
                 <h2 class="text-center">CONTACT</h2>
 
-                <form>
+                <form data-abide>
                     <div class="row">
                         <div class="large-12 small-12 columns no_padding_l_r">
                             <div class="large-6 small-12 columns">
                                 <label>Your name</label>
-                                <input type="text" placeholder="John Doe"/>
+                                <input type="text" required placeholder="John Doe"/>
+                                <small class="error">I would love to know your name!</small>
                             </div>
 
                             <div class="large-6 small-12 columns">
                                 <label>Your e-mail adress</label>
-                                <input type="text" placeholder="example@gmail.com"/>
+                                <input type="email" required placeholder="example@gmail.com"/>
+                                <small class="error">I need your e-mail adress so I can send you a mail back!</small>
                             </div>
                         </div>
 
@@ -299,17 +289,20 @@
 
                             <div class="large-6 small-12 columns">
                                 <label>I want to</label>
-                                <select>
+                                <select required>
+                                    <option>Select why you want to contact me</option>
                                     <option value="collaborate">Collaborate with you</option>
                                     <option value="hire">Hire you for a project</option>
                                     <option value="awesome">Tell you something awesome</option>
                                 </select>
+                                <small class="error">Name is required and must be a string.</small>
                             </div>
                         </div>
 
                         <div class="large-12 small-12 columns">
                             <label>Your message</label>
-                            <textarea type="text" placeholder="I have got something to tell you"></textarea>
+                            <textarea type="text" required placeholder="I have got something to tell you"></textarea>
+                            <small class="error">What is it that you wanted to talk to me about?</small>
                         </div>
 
                         <div class="large-12 small-12 columns">
@@ -328,7 +321,7 @@
             <div class="large-12 small-12 columns no_padding_l_r text-center hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
                 <a href="https://twitter.com/MaartenVanLoock" class="hi-icon">
                     <!--<img data-interchange="[img/icons/twitter_icon_1x.png, (default)], [img/icons/twitter_icon_2x.png, (retina)]" class="social_media_icon" alt="a twitter icon">-->
-                    <svg width="40" height="40" viewBox="0 0 55 55" class="social_media_twitter" id="twitter_icon">
+                    <svg viewBox="0 0 55 55" class="social_media_twitter" id="twitter_icon">
                         <g id="Layer_1">
                         </g>
 
@@ -349,7 +342,7 @@
                 <a href="https://www.behance.net/maartenvanloock" class="hi-icon">
                     <!--<img data-interchange="[img/icons/behance_icon_1x.png, (default)], [img/icons/behance_icon_2x.png, (retina)]" class="social_media_icon" alt="a behance icon">-->
 
-                    <svg width="40" height="40" viewBox="0 0 55 55" class="social_media_behance">
+                    <svg viewBox="0 0 55 55" class="social_media_behance">
                         <g id="Layer_1">
                         </g>
 
@@ -383,7 +376,7 @@
                 <a href="https://be.linkedin.com/in/maartenvanloock" class="hi-icon">
                     <!--<img data-interchange="[img/icons/linkedin_icon_1x.png, (default)], [img/icons/linkedin_icon_2x.png, (retina)]" class="social_media_icon" alt="a linkedin icon">-->
 
-                    <svg width="40" height="40" viewBox="0 0 55 55" class="social_media_linkedin">
+                    <svg viewBox="0 0 55 55" class="social_media_linkedin">
                     <g id="Layer_1">
                     </g>
 
@@ -423,6 +416,8 @@
     <script src="js/foundation/foundation.interchange.js"></script>
     <script src="js/foundation/foundation.topbar.js"></script>
     <script src="js/foundation/foundation.dropdown.js"></script>
+    <script src="js/foundation/foundation.abide.js"></script>
+
 
     <script>
       $(document).foundation();
