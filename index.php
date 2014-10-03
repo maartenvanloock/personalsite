@@ -43,7 +43,6 @@
     <!-- remaining css files -->
 
     <link rel="stylesheet" href="css/foundation.css"/>
-    <link rel="stylesheet" href="css/animate.min.css"/>
     <link rel="stylesheet" href="css/new.css"/>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -115,13 +114,13 @@
     <!-- polygon background image -->
 
     <div class="row">
-        <img data-interchange="[img/backgrounds/polygon_1366.png, (default)], 
-                               [img/backgrounds/polygon_320.png, (only screen and (min-width: 320px))], [img/backgrounds/polygon_480.png, (only screen and (min-width: 480px))],
-                               [img/backgrounds/polygon_640.png, (only screen and (min-width: 640px))], [img/backgrounds/polygon_720.png, (only screen and (min-width: 720px))],
-                               [img/backgrounds/polygon_1024.png, (only screen and (min-width: 1024px))], [img/backgrounds/polygon_1280.png, (only screen and (min-width: 1280px))], 
-                               [img/backgrounds/polygon_1366.png, (only screen and (min-width: 1366px))], [img/backgrounds/polygon_1440.png, (only screen and (min-width: 1440px))], 
-                               [img/backgrounds/polygon_1600.png, (only screen and (min-width: 1600px))], [img/backgrounds/polygon_1920.png, (only screen and (min-width: 1920px))], 
-                               [img/backgrounds/polygon_1920.png, (retina)]" id="background_img" alt="a polygon background">
+        <img data-interchange="[img/backgrounds/polygon_1366.jpg, (default)], 
+                               [img/backgrounds/polygon_320.jpg, (only screen and (min-width: 320px))], [img/backgrounds/polygon_480.jpg, (only screen and (min-width: 480px))],
+                               [img/backgrounds/polygon_640.jpg, (only screen and (min-width: 640px))], [img/backgrounds/polygon_720.jpg, (only screen and (min-width: 720px))],
+                               [img/backgrounds/polygon_1024.jpg, (only screen and (min-width: 1024px))], [img/backgrounds/polygon_1280.jpg, (only screen and (min-width: 1280px))], 
+                               [img/backgrounds/polygon_1366.jpg, (only screen and (min-width: 1366px))], [img/backgrounds/polygon_1440.jpg, (only screen and (min-width: 1440px))], 
+                               [img/backgrounds/polygon_1600.jpg, (only screen and (min-width: 1600px))], [img/backgrounds/polygon_1920.jpg, (only screen and (min-width: 1920px))], 
+                               [img/backgrounds/polygon_1920.jpg, (retina)]" id="background_img" alt="a polygon background">
     </div>
 
     <!-- header text -->
@@ -182,7 +181,7 @@
                 <ul class="grid cs-style-1">
                     <li>
                       <figure>
-                        <img data-interchange="[img/work/guidance_400x300.png, (default)], [img/work/guidance_800x600.png, (retina)]" alt="guidance platform">
+                        <img data-interchange="[img/work/guidance_400x300.jpg, (default)], [img/work/guidance_800x600.jpg, (retina)]" alt="guidance platform">
                         <figcaption>
                           <h3>Guidance - web app</h3>
                           <span>An online platform that I designed and built to help carers communicate</span>
@@ -193,7 +192,7 @@
 
                     <li>
                       <figure>
-                        <img data-interchange="[img/work/word_rijk_met_imd_400x300.png, (default)], [img/work/word_rijk_met_imd_800x600.png, (retina)]" alt="word rijk met imd">
+                        <img data-interchange="[img/work/word_rijk_met_imd_400x300.jpg, (default)], [img/work/word_rijk_met_imd_800x600.jpg, (retina)]" alt="word rijk met imd">
                         <figcaption>
                           <h3>Word rijk met imd</h3>
                           <span>A marketing campaign for the IMD programme at Thomas More University</span>
@@ -204,7 +203,7 @@
 
                     <li>
                       <figure>
-                        <img data-interchange="[img/work/maison_beauty_400x300.png, (default)], [img/work/maison_beauty_800x600.png, (retina)]" alt="logo van maison beauté">
+                        <img data-interchange="[img/work/maison_beauty_400x300.jpg, (default)], [img/work/maison_beauty_800x600.jpg, (retina)]" alt="logo van maison beauté">
                         <figcaption>
                           <h3>Maison Beauté</h3>
                           <span>This is a logo I designed for a fictional beauty salon</span>
@@ -215,7 +214,7 @@
 
                     <li>
                       <figure>
-                        <img data-interchange="[img/work/carpenter_logo_400x300.png, (default)], [img/work/carpenter_logo_800x600.png, (retina)]" alt="word rijk met imd">
+                        <img data-interchange="[img/work/carpenter_logo_400x300.jpg, (default)], [img/work/carpenter_logo_800x600.jpg, (retina)]" alt="word rijk met imd">
                         <figcaption>
                           <h3>Carpenter logo</h3>
                           <span>This is a logo i designed for a carpenter</span>
@@ -226,7 +225,7 @@
 
                     <li>
                       <figure>
-                        <img data-interchange="[img/work/cooking_app_400x300.png, (default)], [img/work/cooking_app_800x600.png, (retina)]" alt="cooking app">
+                        <img data-interchange="[img/work/cooking_app_400x300.jpg, (default)], [img/work/cooking_app_800x600.jpg, (retina)]" alt="cooking app">
                         <figcaption>
                           <h3>Cookio - mobile app</h3>
                           <span>A concept for a cooking app I designed</span>
@@ -237,7 +236,7 @@
 
                     <li>
                       <figure>
-                        <img data-interchange="[img/work/word_rijk_met_imd_400x300.png, (default)], [img/work/word_rijk_met_imd_800x600.png, (retina)]" alt="movie app">
+                        <img data-interchange="[img/work/word_rijk_met_imd_400x300.jpg, (default)], [img/work/word_rijk_met_imd_800x600.jpg, (retina)]" alt="movie app">
                         <figcaption>
                           <h3>Movie - mobile app</h3>
                           <span>An iOS app I designed and help co-develop using AS3</span>
@@ -409,14 +408,14 @@
 
     <!-- LOAD ALL FOUNDATION SCRIPTS -->
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/modernizr.js"></script>
-    <script src="js/foundation.min.js"></script> 
-    <script src="js/foundation/foundation.js"></script>
-    <script src="js/foundation/foundation.interchange.js"></script>
-    <script src="js/foundation/foundation.topbar.js"></script>
-    <script src="js/foundation/foundation.dropdown.js"></script>
-    <script src="js/foundation/foundation.abide.js"></script>
+    <script src="js/vendor/jquery.js" async></script>
+    <script src="js/vendor/modernizr.js" async></script>
+    <script src="js/foundation.min.js" async></script> 
+    <script src="js/foundation/foundation.js" async></script>
+    <script src="js/foundation/foundation.interchange.js" async></script>
+    <script src="js/foundation/foundation.topbar.js" async></script>
+    <script src="js/foundation/foundation.dropdown.js" async></script>
+    <script src="js/foundation/foundation.abide.js" async></script>
 
 
     <script>
